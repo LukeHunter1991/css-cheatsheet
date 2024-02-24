@@ -1,0 +1,42 @@
+root[]'==-'
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+header div{
+    text-align: center;
+}
+
+#overview {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card {
+    border: dashed 1px;
+    position: relative;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card header {
+    position: absolute;
+    left: 150px;
+    bottom: 57px;
+    color: aqua;
+}
+
+footer {
+    text-align: center;
+}
